@@ -1,6 +1,12 @@
+:root {
+    --main-color: #212121;
+    --second-color: #2196F3;
+    --dark-background: #2F303A;
+  }
+
 body {
     font-family: "Roboto", sans-serif;
-    color: #212121;
+    color: var(--main-color);
     font-size: 14px;
     font-style: normal;
     line-height: 2;
@@ -13,22 +19,22 @@ body {
 }
 
 #logo-first-part {
-    color: #2196F3;
+    color: var(--second-color);
 }
 
 .navigation {
     font-style: normal;
     font-size: 14px;
-    color: #212121;
+    color: var(--main-color);
 }
 
 
 .nav-font-change:focus {
-    color:#2196F3;
+    color: var(--second-color);
 }
 
 .nav-font-change:hover {
-    color:#2196F3;
+    color: var(--second-color);
 }
 
 .contact {
@@ -43,11 +49,12 @@ body {
     font-style: normal;
     font-size: 16px;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
+    border-radius: 4px;
 }
 
 .colour-change:hover {
-    background-color: #2196F3;
+    background-color: var(--second-color);
     color: #F5F4FA;
 }
 
@@ -58,7 +65,7 @@ button {
 
 a {
     text-decoration: none;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .image-description-1 {
@@ -89,7 +96,7 @@ footer {
 }
 
 #logo-first-part {
-    color: #2196F3;
+    color: var(--second-color);
 }
 
 .footer-font {
@@ -119,7 +126,7 @@ footer {
 }
 
 .background-style {
-    background: #2F303A;
+    background: var(--dark-background);
 }
 
 .h1-style {
@@ -128,12 +135,13 @@ footer {
 }
 
 .index-button {
-    background-color: #2196F3;
+    background-color: var(--second-color);
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 700;
     width: 200px;
     height: 50px;
+    border-radius: 4px;
 }
 
 .h4-style {
@@ -146,13 +154,13 @@ footer {
 }
 
 .h2-style {
-    color: #212121;
+    color: var(--main-color);
     font-weight: 700;
     font-size: 36px;
 }
 
 .description-team-1 {
-    color: #212121;
+    color: var(--main-color);
     font-weight: 700;
     font-size: 16px;
 }
@@ -164,5 +172,5 @@ footer {
 }
 
 #logo-first-part-2 {
-    color: #2196F3;
+    color: var(--second-color);
 }
